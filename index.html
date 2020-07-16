@@ -4,11 +4,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Main DIR</title>
+
+  <style>
+    .container {
+      height: 500px;
+      background-color: white;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+   
+    .blue {
+      background-color: blue;
+    }
+
+     #row1 {
+      grid-column:  2 / span 1;
+      grid-row: 1 / span 1;
+    }
+
+     #row3 {
+      grid-column:  2 / span 1;
+      grid-row: 3 / span 1;
+    }
+
+    #row5 {
+      grid-column:  2 / span 1;
+      grid-row: 5 / span 1;
+    }
+
+    #row7 {
+      grid-column:  2 / span 1;
+      grid-row: 7 / span 1;
+    }  
+
+    #row9 {
+      grid-column:  1 / span 2;
+      grid-row: 9 / span 1;
+    }
+
+    #row11 {
+      grid-column:  1 / span 2;
+      grid-row: 11 / span 1;
+    }
+
+     #row13 {
+      grid-column:  1 / span 2;
+      grid-row: 13 / span 1;
+    }
+    
+    #blue {
+      grid-column:  1 / span 1;
+      grid-row: 1 / span 7;
+    }
+  </style>
+
 </head>
 
 <body>
-  <h1>Daniel Ayala</h1>
+  <div class="container">
+  
+    <div id="row1" class="red"></div>
+    <div id="row3" class="red"></div>
+    <div id="row5" class="red"></div>
+    <div id="row7" class="red"></div>
+    <div id="row9" class="red"></div>
+    <div id="row11" class="red"></div>
+    <div id="row13" class="red"></div>
+
+    <div class="blue" id="blue"></div>
+    </div>
+
+
 </body>
 
 </html>
