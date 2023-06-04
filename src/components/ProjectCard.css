@@ -1,0 +1,19 @@
+.card {
+  height: 230px;
+  width: 365px;
+  margin: 5px;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  border-radius: 10%;
+  filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 350px) {
+  .card {
+    width: 240px;
+    height: 150px;
+  }
+}
