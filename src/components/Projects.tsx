@@ -1,4 +1,5 @@
 import "./Projects.css"
+import { Link } from "react-router-dom"
 import {ProjectCard} from "./ProjectCard"
 
 export const Projects = () => {
@@ -9,7 +10,9 @@ export const Projects = () => {
       </div>
 
       <div className="projectCards">
-        <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/SecretSauceLogo.png)'}/>
+        <Link className="linkStyle" to='/projects'>
+          <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/SecretSauceLogo.png)'}/>
+        </Link>
         <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/OC-Hillel-logo.png-OC%2BHillel%2Blogo.png)'}/>
         <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/ZotPediaVisual.PNG)'}/>
         <ProjectCard />
