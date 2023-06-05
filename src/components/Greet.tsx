@@ -19,8 +19,12 @@ export const Greet = (props: GreetProps) => {
         <p>
           <Link to="/projects" className="link">Projects</Link>
         </p>
-        <p className="link">Resume</p>
-        <p className="link">Contact</p>
+        <p>
+          <a href="https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/de6b6cbd03ae54dc5fd4fe12b12edd0fcd95e199/src/resources/Dev%20Resume.pdf" target="_blank" className="link">Resume</a>
+        </p>
+        <p >
+          <a href="mailto:dannyboy3385@gmail.com" className="link">Contact</a>
+        </p>
       </nav>
 
       <style>

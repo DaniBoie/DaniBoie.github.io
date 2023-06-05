@@ -9,8 +9,10 @@ export const ProjectPage = () => {
 
       <div className="projectHeader">
         <h2 className="projectLogo">Secret Sauce</h2>
-        <p className="projectTag">User Research</p>
-        <p className="projectTag">UI/UX</p>
+        <div className="projectTagGroup"style={{"marginRight": "1vw"}}>
+          <p className="projectTag">User Research</p>
+          <p className="projectTag">UI/UX</p>
+        </div>
       </div>
 
       <div className="projectBody">
@@ -41,16 +43,23 @@ export const ProjectPage = () => {
         </div>
 
         <p style={{"textAlign": "center"}}> Because there is currently no widely known app users go to for finding and sharing recipes, it provides a prime opportunity to come up with something that could shake the market.</p>
-        <p style={{ "textAlign": "center" }}>Using insights from user research, we iterated on a functional prototype that captures the core functions we wanted for the application.</p>
+        <p style={{ "textAlign": "center" }}>Using insights from user research, we iterated on and created a functional prototype that captures the core functions we invisioned for the application.</p>
         <a href="https://www.figma.com/proto/uJNUeh6N74Sy87qfepHOlV/Secret-Sauce-Hifi-Prototype?type=design&node-id=8-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A2&show-proto-sidebar=1"></a>
-
+        <div style={{"display": "flex", "justifyContent": "center"}}>
+          <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/sketch.jpg)'} />
+        </div>
+        
         <div className="projectDesign">
           <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/Lofi2.png)'} />
           <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/Lofi1.png)'} />
           <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/HiFi1.png)'} />
-          <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/HiFi2.png)'} />
+          <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/Hifi2.0.png)'} />
         </div>
       </div>
+
+      <div style={{ "display": "flex", "justifyContent": "center"}}>
+        <p ><a target="_blank" className="figmaLink" href="https://www.figma.com/proto/uJNUeh6N74Sy87qfepHOlV/Secret-Sauce-Hifi-Prototype?type=design&scaling=scale-down&page-id=0%3A1&node-id=8-2&starting-point-node-id=8%3A2&show-proto-sidebar=1"> Link to Figma Functional Prototype</a></p>
+    </div>
 
       <div className="projectLessonsHeader">
           <h2 className="projectLogo">Reflection / Lessons Learned</h2>
@@ -64,8 +73,8 @@ export const ProjectPage = () => {
         <div></div>
       </div>
 
-      <p style={{ "textAlign": "center", "margin": "20px" }}>In doing this project I learned _____</p>
-      <p style={{ "textAlign": "center", "margin": "20px" }}>If I continue moving forward with this project I would _____ </p>
+      <p className="lessonText">In doing this project I learned how to create key design artifacts such as a competitive analysis / project presentation, and expanded my toolbox of design methods.</p>
+      <p className="lessonText">If I were to continue moving forward with this project, I would conduct user interviews to gague interest in Secret Sauce's core functionality and if interest is high enough begin developing a minimum viable product.  </p>
       {/* <div>
         <video className="projectVideo" src=""></video>
       </div> */}
