@@ -3,12 +3,12 @@ import { ProjectCard } from "../components/ProjectCard"
 
 export const ProjectPage = () => {
   return (
-    <>
+    <div className="projectPage">
       <Greet name="Daniel Ayala" />
 
 
       <div className="projectHeader">
-        <p className="projectLogo">Secret Sauce</p>
+        <h2 className="projectLogo">Secret Sauce</h2>
         <p className="projectTag">User Research</p>
         <p className="projectTag">UI/UX</p>
       </div>
@@ -53,7 +53,7 @@ export const ProjectPage = () => {
       </div>
 
       <div className="projectLessonsHeader">
-          <p className="projectLogo">Reflection / Lessons Learned</p>
+          <h2 className="projectLogo">Reflection / Lessons Learned</h2>
       </div>
 
       <p style={{ "textAlign": "center", "margin": "20px" }}>What I learned and what I would do if we moved forward?</p>
@@ -69,6 +69,6 @@ export const ProjectPage = () => {
       {/* <div>
         <video className="projectVideo" src=""></video>
       </div> */}
-    </>
+    </div>
   )
 }

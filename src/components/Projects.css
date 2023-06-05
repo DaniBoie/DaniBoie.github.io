@@ -1,3 +1,8 @@
+.projectPage p{
+  font-family: 'Yrsa';
+  font-size: x-large;
+}
+
 .projectHeader {
   height: 8vh;
   background-color: white;
@@ -10,6 +15,7 @@
   z-index: 1;
   text-align: center;
   border-bottom: 2px solid rgba(128, 128, 128, 0.316);
+  padding-bottom: 20px;
 }
 
 .projectLessonsHeader {
@@ -31,7 +37,7 @@
   white-space: nowrap;
   font-family: 'Alice';
   font-style: normal;
-  font-size: 7vmin;
+  font-size: 6vmin;
   font-weight: lighter;
   filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.25));
 }
