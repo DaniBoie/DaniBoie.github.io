@@ -1,0 +1,2 @@
+Develop a simple app to help cooks that have trouble deciding what dish to make, by allowing them to input ingredients (through camera object) they have on hand and retrieve recipes that utilize them. The app also provides a social feature that allows cooks to upload their meals for other users to find. 
+"issue: how would we input individual recipies solution: have users upload recipies that will be used as results" 

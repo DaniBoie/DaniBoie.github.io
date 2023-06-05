@@ -28,6 +28,7 @@
   margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
+  white-space: nowrap;
   font-family: 'Alice';
   font-style: normal;
   font-size: 7vmin;
@@ -41,6 +42,7 @@
   padding: 5px;
   border-radius: 20px;
   box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
 }
 
 .projectCards {
@@ -62,6 +64,7 @@
 
 .projectProblemStatement {
   margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .projectSection {
@@ -77,6 +80,12 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 20px
+}
+
+.projectDesign .card {
+  width: 500px;
+  height: 400px;
+  border-radius: 0px;
 }
 
 .projectSection p {
