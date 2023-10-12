@@ -1,5 +1,4 @@
 import "./ProjectCard.css"
-import { url } from "inspector"
 
 export const ProjectCard = (props: any) => {
   return (
