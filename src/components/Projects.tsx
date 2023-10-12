@@ -23,7 +23,7 @@ export const Projects = () => {
         </Link>
 
         <Link className="linkStyle" to='https://www.figma.com/proto/HH5tdtQbHDJGyEYtMUMTVb?node-id=0-1&mode=design&t=g8hz04v9nsTFieNi-6' target='_blank'>
-          <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/src/resources/ZotPediaVisual.PNG)'}/>
+          <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/DaniBoie.github.io/master/src/resources/PiazzaRedesign.png)'}/>
         </Link>
         
       </div>
